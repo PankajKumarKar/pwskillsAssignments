@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: #fcba03;
+  font-family: "Red Rose", cursive;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./assets/bcg.png");
+  padding: 40px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  width: 140px;
+}
+.nav-menu ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+.nav-menu ul li a {
+  text-decoration: none;
+  font-weight: 900px;
+  font-size: 20px;
+}
+button {
+  background-color: #f0410bee;
+  width: fit-content;
+  padding: 5px;
+  border: none;
+  color: #ffffff;
+}
+
+.btn button {
+  font-size: 20px;
+  padding: 8px 16px;
+  font-weight: 900;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-heading {
+  margin-top: 80px;
+  width: 1100px;
+  text-align: center;
+}
+.main-heading h1 {
+  font-size: 120px;
+  font-weight: 900;
+  line-height: 130px;
+}
+.btn2 button {
+  margin-top: 30px;
+  font-size: 25px;
+  padding: 8px 20px;
+  font-weight: 800;
+}
+.endlogo img {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  width: 140px;
+}
+button:hover {
+  color: black;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+ul li a:hover {
+  color: white;
+  text-decoration: underline;
+  font-size: 21px;
+  transition: 250ms;
+}
