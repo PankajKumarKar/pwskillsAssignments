@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #15103a;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  align-items: center;
+}
+nav ul li a {
+  text-decoration: none;
+
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+}
+nav ul li a:hover{
+  color: #f1e42c;
+}
+nav ul li:first-child {
+  background-color: blue;
+  border-radius: 20px;
+  padding: 8px 12px;
+}
+.img-f {
+  display: none;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.heading1 {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.heading1 img {
+  width: 70px;
+}
+.heading1 h2 {
+  font-size: 40px;
+}
+.heading1 h1 {
+  font-size: 40px;
+}
+.heading2 h1 {
+  font-size: 50px;
+}
+.heading3 {
+  font-size: 40px;
+  color: yellow;
+}
+.project {
+  margin-top: -50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 180px;
+  text-align: center;
+}
+.heading-h {
+  text-align: center;
+  margin-top: 60px;
+  text-decoration: blue  underline 15px;
+}
+footer {
+  margin-top: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.footer-heading a {
+  font-size: 40px;
+  font-weight: 600px;
+  color: white;
+  text-decoration: underline blue 10px;
+}
+.footer-logo img {
+  width: 35px;
+  margin: 10px;
+}
+.footer-logo img:hover {
+  cursor: pointer;
+}
+.img h2:hover {
+  cursor: pointer;
+  color: blue;
+}
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+  .img-main img{
+   width:300px;
+  }
+  .img-f {
+    display: block;
+  }
+  section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .heading1 {
+    flex-direction: column;
+  }
+  .project {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  }
+  .project img{
+  min-width: 300px;
+  }
+}
